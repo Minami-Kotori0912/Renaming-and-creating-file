@@ -69,7 +69,7 @@ def main(mode):
                 file_name_list.append(file_name + "_" + temp + suffix)
                 k += 1
                 i += 1
-                if k == 25:
+                if k == 26:
                     k = 0
                     j += 1
         output_file(file_number_list, file_name_list)
