@@ -4,7 +4,7 @@ output_folder = "output"
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 #selecting mode
-mode = int(input("how would you creat the files? 1: name+number 2: name + alphabet sequence(max of 702) 3: exit"))
+mode = int(input("how would you creat the files? 1: name+number 2: name + alphabet sequence(max of 676) 3: exit"))
 
 #functions
 def get_file_location_creating():
